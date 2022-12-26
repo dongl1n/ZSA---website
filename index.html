@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=., initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Inter:regular,600,800" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Russo+One:regular" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/91176c6ac9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
@@ -18,9 +18,9 @@
                     <img src="assets/img/zsa.svg" alt="header__logo" class="header__logo-image">
                 </div>
                 <ul class="header__list">
-                    <li class="header__item"> <a href="">Сертификаты</a></li>
-                    <li class="header__item"> <a href="#product">Продукция</a></li>
-                    <li class="header__item"> <a href="">Контакты</a></li>
+                    <li class="header__item"> <a href="#certificates">Сертификаты</a></li>
+                    <li class="header__item"> <a href="#products">Продукция</a></li>
+                    <li class="header__item"> <a href="#contacts">Контакты</a></li>
                 </ul>
             </div>
         </header>
@@ -32,7 +32,7 @@
                         <img src="assets/img/about_image.svg" alt="about-us_image" class="about-us__image">
                     </div>
                     <div class="about-us__text-box">
-                        <h1 class="about-us__header _header">Добро пожаловать на сайт ООО &laquo;ЗСА&raquo</h1>
+                        <h1 class="about-us__header _header">Добро пожаловать на сайт ООО &laquo;ЗСА&raquo;</h1>
                         <p class="about-us__text _text">Мы работаем с 2008 года на рынке оптовых продаж и ремонта оборудования, измерительных приборов, инструмента, производства и монтажа натяжных потолков.</p>
                         <div class="about-us__button _button">
                             <a href="" class="about-us__link">Наши контакты</a>
@@ -52,20 +52,20 @@
                         <li class="product-item-white"></li>
                         <li class="product-item-white"></li>
                     </ul>
-                    <ul class="product_list" name="product">
-                        <a href="" class="product__link"><li class="product-item">Фрикционные диски</li></a>
-                        <a href="" class="product__link"><li class="product-item">Электротехника</li></a>
-                        <a href="" class="product__link"><li class="product-item">Проектирование и строительство</li></a>
-                        <a href="" class="product__link"><li class="product-item">Категория 4</li></a>
-                        <a href="" class="product__link"><li class="product-item">Категория 5</li></a>
-                        <a href="" class="product__link"><li class="product-item">Категория 6</li></a>
-                    </ul>
+                    <div class="product_list" id="products">
+                        <a href="" class="product__link"><div class="product-item">Фрикционные диски</div></a>
+                        <a href="" class="product__link"><div class="product-item">Электротехника</div></a>
+                        <a href="" class="product__link"><div class="product-item">Проектирование и строительство</div></a>
+                        <a href="" class="product__link"><div class="product-item">Категория 4</div></a>
+                        <a href="" class="product__link"><div class="product-item">Категория 5</div></a>
+                        <a href="" class="product__link"><div class="product-item">Категория 6</div></a>
+                    </div>
                 </section>
                 <div class="main__contacts-white"></div>
                 <section class="main__contacts">
                     <div class="contacts__text-box">
                         <h2 class="contacts__header _header">Контактная информация</h2>
-                        <div class="contacts__grid">
+                        <div class="contacts__grid" id="contacts">
                             <div class="contacts__icon" title="Адрес"><i class="fa-solid fa-location-dot"></i></div>
                             <div>Россия, Самарская область, г. Тольятти, ул. Дзержинского 98</div>
                             <div class="contacts__icon" title="Эл. почта"><i class="fa-solid fa-envelope"></i></div>
@@ -84,7 +84,7 @@
         </main>
         <footer class="footer">
             <div class="footer__container _container">
-                <div class="footer__name">ООО &laquo;ЗСА&raquo</div>
+                <div class="footer__name">ООО &laquo;ЗСА&raquo;</div>
                 <div class="footer__year">2023</div>
                 <div class="footer_freepic"><a href="https://ru.freepik.com/author/stories">Изображения от storyset</a> на Freepik</div>
             </div>
