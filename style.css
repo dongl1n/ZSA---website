@@ -265,6 +265,11 @@ html, body{
     transform: translate(10px);
     width: 395px;
 }
+
+.product-item:active {
+    background-color: #61D869;
+}
+
 .product__link{
     font-weight: 600;
     text-align: center;
