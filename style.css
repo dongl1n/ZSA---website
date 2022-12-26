@@ -329,11 +329,11 @@ html, body{
     color: white;
 }
 
-.footer_freepic > a{
+.footer__freepic > a{
     color: white;
 }
 
-.footer_freepic > a:hover{
+.footer__freepic > a:hover{
     color:#dbffde;
     transition: 250ms;
 }
