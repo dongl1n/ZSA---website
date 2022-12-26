@@ -338,6 +338,6 @@ html, body{
     transition: 250ms;
 }
 
-.footer_freepic > a:active{
+.footer__freepic > a:active{
     color: #61D869;
 }
